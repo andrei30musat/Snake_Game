@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color:#FFD662FF;
+  margin-top: 20px;
+  font-size: 80px;
+  font-family: 'Lilita One', cursive;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  text-decoration: underline;
+  text-shadow: 3px 3px #00539CFF;
+}
+
+canvas{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+
