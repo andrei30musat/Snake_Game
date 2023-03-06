@@ -1,5 +1,5 @@
 # Snake_Game
-📌 This is a Snake game written in HTML, CSS, and JavaScript.
+📌 This is a snake game written in HTML, CSS, and JavaScript.
 
 ## *How to play*✨
 -   The game is played by controlling the snake to eat the food, while avoiding collision with the walls and itself. 
