@@ -1,3 +1,4 @@
+
 const cvs = document.getElementById("snake");
 const ctx = cvs.getContext("2d");
 
@@ -42,8 +43,8 @@ document.addEventListener("keydown",direction);
 function direction(event){
   let key = event.keyCode;
   if( key === 37 && d !== "RIGHT"){
-    d = "LEFT";
 
+    d = "LEFT";
   }else if(key === 38 && d !== "DOWN"){
     d = "UP";
 
@@ -88,6 +89,7 @@ function draw(){
   // if the snake eats the food
   if(snakeX === food.x && snakeY === food.y){
     score++;
+
     food = {
       x : Math.floor(Math.random()*17+1) * box,
       y : Math.floor(Math.random()*15+3) * box
@@ -110,7 +112,6 @@ function draw(){
 
   if(snakeX < box || snakeX > 17 * box || snakeY < 3*box || snakeY > 17*box || collision(newHead,snake)){
     clearInterval(game);
-
 
     ctx.fillStyle="#00203FFF";
     ctx.fillRect(5*box, 8*box, 9*box, 3*box);
